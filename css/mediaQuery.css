@@ -1,0 +1,28 @@
+@media (max-width: 375px) {
+    
+}
+
+@media (max-width: 576px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 992px) {
+    .banner-image{
+        background-size: cover !important;
+        background-position: right;
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1400px) {
+
+}
