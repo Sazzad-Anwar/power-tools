@@ -334,7 +334,7 @@
 
 .category__details{
     background-position: center;
-    background-size: cover;
+    background-size: cover !important;
     background-repeat: no-repeat;
     padding: 100px 30px;
     height: 100%;
@@ -383,7 +383,7 @@
 }
 
 .category__details__small{
-    background-size: cover;
+    background-size: cover !important;
     background-repeat: no-repeat;
     background-position: center;
     height: 100%;
@@ -467,4 +467,139 @@
 
 .brands__carousel{
     margin-top: 35px;
+}
+
+.testimonial__section{
+    background: #0A4A74;
+    padding: 35px 0;
+    margin-top: 89px;
+}
+
+.testimonial__section .__card{
+    padding: 12px;
+    background-size: cover !important;
+    background-position: center !important;
+    width: 100%;
+    height: 100%;
+}
+
+.testimonial__section .__card h1{
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.testimonial__section .__card p{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 10px;
+    color: #fff;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.testimonial__section .__card a{
+    padding: 6px 12px;
+    margin-top: 16px;
+    font-size: 10px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    background: #0A4A74;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+footer{
+    padding: 50px 0;
+}
+
+.footer__nav{
+    margin-top: 50px;
+}
+
+.footer__nav h1{
+    font-weight: 700;
+    font-size: 14px;
+    color: #0F72B3;
+    text-transform: uppercase;
+}
+
+.footer__nav ul{
+    list-style: none;
+    margin-top: 11px;
+    padding-left: 0px;
+}
+
+.footer__nav ul li{
+    margin-bottom: 11px;
+}
+
+.footer__nav ul li a{
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 11px;
+    color: #fff;
+    position: relative;
+    text-transform: uppercase;
+    text-align: left;
+    text-decoration: none;
+}
+
+.footer__nav ul li a::after{
+    content:'';
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #ffff;
+    transition: all .3s ease-in-out;
+}
+
+.footer__nav ul li a:hover::after{
+    width: 100%;
+}
+
+.map__link{
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.map__link h1{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 11px;
+    text-transform: uppercase;
+}
+
+.text__blue{
+    color: #0A4A74;
+}
+
+.map__link p{
+    font-size: 13px;
+    line-height: 14px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.text__gray{
+    color: #959594;
+}
+
+.map__link a{
+    font-weight: 700;
+    font-size: 14px;
+    padding: 11px 25px;
+    background: #0F72B3;
+    border-radius: 3px;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 11px;
 }
