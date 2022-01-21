@@ -4,6 +4,14 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.__logo{
+    width: 100%;
+}
+
+.__logo img{
+    width: inherit;
+}
+
 .top__nav{
     margin: 6px 0;
 }
@@ -233,7 +241,7 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.product__items .item .product__details{
+.product__items .item .product__details, .__brands{
     height: 326px;
     width: 263px;
     border: 2px solid #E2E2E2;
@@ -241,12 +249,13 @@
     overflow: hidden;
 }
 
-.product__items .item .product__details:hover{
+.product__items .item .product__details:hover, .__brands:hover{
     border: 2px solid #0F72B3;
 }
 
-.product__items .item .product__details img{
-    width: 150px;
+.product__items .item .product__details img, .__brands img{
+    width: 150px !important;
+    margin: auto;
     height: 150px;
     margin-top: 20px;
     overflow: hidden;
@@ -254,7 +263,7 @@
     transition: transform .4s ease-in-out;
 }
 
-.product__items .item .product__details:hover img{
+.product__items .item .product__details:hover img, .__brands:hover img{
     transform: scale(1.2);
 }
 
@@ -286,7 +295,7 @@
     margin-left: 3px;
 }
 
-.product__items .item .product__details .product__link{
+.product__items .item .product__details .product__link, .__brands .__link{
     background: #0F72B3;
     font-size: 12px;
     font-weight: 600;
@@ -299,7 +308,7 @@
     transition: all .3s ease-in-out;
 }
 
-.product__items .item .product__details:hover .product__link{
+.product__items .item .product__details:hover .product__link, .__brands:hover .__link{
     opacity: 100;
 }
 
@@ -317,4 +326,145 @@
 
 .carousel__next{
     right: 0;
+}
+
+.category__section{
+    margin-top: 50px;
+}
+
+.category__details{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 30px;
+    height: 100%;
+    width: 100%;
+}
+
+.category__details h1{
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 35px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 53px;
+}
+
+.category__details p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.category__details .find__more__btn {
+    margin-top: 34px;
+}
+
+.category__details .find__more__btn a{
+    text-decoration: none;
+    color: #fff;
+    padding: 16px 23px;
+    background: #0A4A74;
+    text-transform: uppercase;
+    margin-top: 34px;
+    text-align: center;
+    transition: all .3s ease-in-out;
+    box-shadow: none;
+    border-radius: 3px;
+}
+
+.category__details .find__more__btn a:hover{
+    background: #0F72B3;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+
+.category__details__small{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.category__details__small h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 229px;
+    padding-bottom: 15px;
+}
+
+.subscription__area{
+    margin-top: 94px;
+}
+
+.subscription__area p{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #0F72B3;
+}
+
+.subscription__area .email__input{
+    padding: 19px 13px;
+    color: #0F72B3;
+    border: 1px solid #0F72B3;
+    border-radius: 3px;
+    outline: none;
+    width: 100%;
+    font-weight: 500;
+}
+
+.subscription__area .email__input::placeholder{
+    color: #0F72B3;
+    text-transform: uppercase;
+}
+
+.subscription__area .email__btn{
+    padding: 19px 26px;
+    background: #DE2D3B;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    margin-left: 45px;
+}
+
+.brands__area{
+    margin-top: 85px;
+}
+
+.brands__area h1{
+    font-size: 24px;
+    font-weight: 500;
+    color: #0F72B3;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.__brands h1{
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #0F72B3;
+    margin-top: 20px;
+}
+
+.__brands{
+    height: 264px;
+    width: 263px;
+}
+
+.brands__carousel{
+    margin-top: 35px;
 }

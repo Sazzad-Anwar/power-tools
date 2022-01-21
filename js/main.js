@@ -37,4 +37,29 @@ $('.product__items').owlCarousel({
             items: 4
         }
     }
-})
+});
+
+$('.brands__carousel').owlCarousel({
+    dots: false,
+    loop: true,
+    navText: [
+        "<img class='carousel__previous' src='../images/icons/chevron_big_left.png' />",
+        "<img class='carousel__next' src='../images/icons/chevron_big_right.png' />",
+    ],
+    autoplay: true,
+    autoplayTimeout: 1500,
+    autoplayHoverPause: true,
+    margin: 20,
+    nav: true,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 3
+        },
+        1000: {
+            items: 4
+        }
+    }
+});
