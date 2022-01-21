@@ -400,6 +400,11 @@
     padding-bottom: 15px;
 }
 
+.category__details__small h1 a{
+    color: #fff;
+    text-decoration: none;
+}
+
 .subscription__area{
     margin-top: 94px;
 }
