@@ -3,6 +3,12 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
+.line__clamp_2{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; 
+}
 
 .__logo{
     width: 100%;
@@ -403,6 +409,11 @@
 .category__details__small h1 a{
     color: #fff;
     text-decoration: none;
+    transition: color .3s ease-in-out
+}
+
+.category__details__small h1 a:hover{
+    color: red;
 }
 
 .subscription__area{
