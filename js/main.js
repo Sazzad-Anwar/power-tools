@@ -64,6 +64,27 @@ $('.brands__carousel').owlCarousel({
     }
 });
 
+$('.single__slider').owlCarousel({
+    dots: false,
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: true,
+    margin: 0,
+    nav: false,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 1
+        },
+        1000: {
+            items: 1
+        }
+    }
+});
+
 let mobileFunctionality = () => {
     console.log('mobile device')
 
