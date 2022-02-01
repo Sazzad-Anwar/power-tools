@@ -15,7 +15,7 @@ var wow = new WOW(
 wow.init();
 
 $('.product__items').owlCarousel({
-    dots: false,
+    dots: true,
     loop: true,
     navText: [
         "<img class='carousel__previous' src='../images/icons/chevron_big_left.png' />",
@@ -40,7 +40,7 @@ $('.product__items').owlCarousel({
 });
 
 $('.brands__carousel').owlCarousel({
-    dots: false,
+    dots: true,
     loop: true,
     navText: [
         "<img class='carousel__previous' src='../images/icons/chevron_big_left.png' />",

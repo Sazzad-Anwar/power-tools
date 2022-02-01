@@ -662,3 +662,22 @@ footer {
 .testimonial__section .container .row {
     padding-bottom: 66px;
 }
+
+.owl-dots {
+    position: absolute !important;
+    bottom: -30px !important;
+    left: 50% !important;
+    transform: translate(-50%, 0px) !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #0f72b3 !important;
+    border: 3px solid #fff !important;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    border: 2px solid #fff !important;
+    width: 20px !important;
+    height: 20px !important;
+}
